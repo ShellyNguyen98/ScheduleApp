@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD2036C92991D5AA00EE087D /* SchedulePalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2036C82991D5AA00EE087D /* SchedulePalApp.swift */; };
+		FD2036CB2991D5AA00EE087D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2036CA2991D5AA00EE087D /* ContentView.swift */; };
+		FD2036CD2991D5AB00EE087D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2036CC2991D5AB00EE087D /* Assets.xcassets */; };
+		FD2036D02991D5AB00EE087D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2036CF2991D5AB00EE087D /* Preview Assets.xcassets */; };
+		FD2036D22991D5AB00EE087D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2036D12991D5AB00EE087D /* Persistence.swift */; };
+		FD2036D52991D5AB00EE087D /* SchedulePal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD2036D32991D5AB00EE087D /* SchedulePal.xcdatamodeld */; };
+		FD2036DE2991D73700EE087D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2036DD2991D73700EE087D /* CoreDataManager.swift */; };
+		FD2036E12991D97300EE087D /* WeeklyCalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2036E02991D97300EE087D /* WeeklyCalenderView.swift */; };
+		FD2036E42991DAA200EE087D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2036E32991DAA200EE087D /* Extension.swift */; };
+		FD2036E62991DAF300EE087D /* CalenderWeekListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2036E52991DAF300EE087D /* CalenderWeekListView.swift */; };
+		FD2036E929944DCF00EE087D /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2036E829944DCF00EE087D /* ProgressBarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD2036C52991D5AA00EE087D /* SchedulePal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchedulePal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2036C82991D5AA00EE087D /* SchedulePalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulePalApp.swift; sourceTree = "<group>"; };
+		FD2036CA2991D5AA00EE087D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD2036CC2991D5AB00EE087D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD2036CF2991D5AB00EE087D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD2036D12991D5AB00EE087D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FD2036D42991D5AB00EE087D /* SchedulePal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchedulePal.xcdatamodel; sourceTree = "<group>"; };
+		FD2036DD2991D73700EE087D /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		FD2036E02991D97300EE087D /* WeeklyCalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyCalenderView.swift; sourceTree = "<group>"; };
+		FD2036E32991DAA200EE087D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		FD2036E52991DAF300EE087D /* CalenderWeekListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderWeekListView.swift; sourceTree = "<group>"; };
+		FD2036E829944DCF00EE087D /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD2036C22991D5AA00EE087D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD2036BC2991D5AA00EE087D = {
+			isa = PBXGroup;
+			children = (
+				FD2036C72991D5AA00EE087D /* SchedulePal */,
+				FD2036C62991D5AA00EE087D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD2036C62991D5AA00EE087D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD2036C52991D5AA00EE087D /* SchedulePal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD2036C72991D5AA00EE087D /* SchedulePal */ = {
+			isa = PBXGroup;
+			children = (
+				FD2036E22991DA9900EE087D /* Extension */,
+				FD2036DC2991D72700EE087D /* Manager */,
+				FD2036DB2991D5C200EE087D /* Views */,
+				FD2036C82991D5AA00EE087D /* SchedulePalApp.swift */,
+				FD2036CA2991D5AA00EE087D /* ContentView.swift */,
+				FD2036CC2991D5AB00EE087D /* Assets.xcassets */,
+				FD2036D12991D5AB00EE087D /* Persistence.swift */,
+				FD2036D32991D5AB00EE087D /* SchedulePal.xcdatamodeld */,
+				FD2036CE2991D5AB00EE087D /* Preview Content */,
+			);
+			path = SchedulePal;
+			sourceTree = "<group>";
+		};
+		FD2036CE2991D5AB00EE087D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD2036CF2991D5AB00EE087D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD2036DB2991D5C200EE087D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD2036E729944DC100EE087D /* ProgressBar */,
+				FD2036DF2991D96800EE087D /* Calender */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD2036DC2991D72700EE087D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FD2036DD2991D73700EE087D /* CoreDataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FD2036DF2991D96800EE087D /* Calender */ = {
+			isa = PBXGroup;
+			children = (
+				FD2036E02991D97300EE087D /* WeeklyCalenderView.swift */,
+				FD2036E52991DAF300EE087D /* CalenderWeekListView.swift */,
+			);
+			path = Calender;
+			sourceTree = "<group>";
+		};
+		FD2036E22991DA9900EE087D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FD2036E32991DAA200EE087D /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FD2036E729944DC100EE087D /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				FD2036E829944DCF00EE087D /* ProgressBarView.swift */,
+			);
+			path = ProgressBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD2036C42991D5AA00EE087D /* SchedulePal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2036D82991D5AB00EE087D /* Build configuration list for PBXNativeTarget "SchedulePal" */;
+			buildPhases = (
+				FD2036C12991D5AA00EE087D /* Sources */,
+				FD2036C22991D5AA00EE087D /* Frameworks */,
+				FD2036C32991D5AA00EE087D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchedulePal;
+			productName = SchedulePal;
+			productReference = FD2036C52991D5AA00EE087D /* SchedulePal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD2036BD2991D5AA00EE087D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FD2036C42991D5AA00EE087D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = FD2036C02991D5AA00EE087D /* Build configuration list for PBXProject "SchedulePal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD2036BC2991D5AA00EE087D;
+			productRefGroup = FD2036C62991D5AA00EE087D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD2036C42991D5AA00EE087D /* SchedulePal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD2036C32991D5AA00EE087D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2036D02991D5AB00EE087D /* Preview Assets.xcassets in Resources */,
+				FD2036CD2991D5AB00EE087D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD2036C12991D5AA00EE087D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2036D22991D5AB00EE087D /* Persistence.swift in Sources */,
+				FD2036E929944DCF00EE087D /* ProgressBarView.swift in Sources */,
+				FD2036E12991D97300EE087D /* WeeklyCalenderView.swift in Sources */,
+				FD2036E42991DAA200EE087D /* Extension.swift in Sources */,
+				FD2036CB2991D5AA00EE087D /* ContentView.swift in Sources */,
+				FD2036D52991D5AB00EE087D /* SchedulePal.xcdatamodeld in Sources */,
+				FD2036DE2991D73700EE087D /* CoreDataManager.swift in Sources */,
+				FD2036E62991DAF300EE087D /* CalenderWeekListView.swift in Sources */,
+				FD2036C92991D5AA00EE087D /* SchedulePalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FD2036D62991D5AB00EE087D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD2036D72991D5AB00EE087D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD2036D92991D5AB00EE087D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SchedulePal/Preview Content\"";
+				DEVELOPMENT_TEAM = AQYU6V44Z6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shayan.shirazi.SchedulePal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD2036DA2991D5AB00EE087D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SchedulePal/Preview Content\"";
+				DEVELOPMENT_TEAM = AQYU6V44Z6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shayan.shirazi.SchedulePal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD2036C02991D5AA00EE087D /* Build configuration list for PBXProject "SchedulePal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2036D62991D5AB00EE087D /* Debug */,
+				FD2036D72991D5AB00EE087D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD2036D82991D5AB00EE087D /* Build configuration list for PBXNativeTarget "SchedulePal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2036D92991D5AB00EE087D /* Debug */,
+				FD2036DA2991D5AB00EE087D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD2036D32991D5AB00EE087D /* SchedulePal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD2036D42991D5AB00EE087D /* SchedulePal.xcdatamodel */,
+			);
+			currentVersion = FD2036D42991D5AB00EE087D /* SchedulePal.xcdatamodel */;
+			path = SchedulePal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD2036BD2991D5AA00EE087D /* Project object */;
+}
